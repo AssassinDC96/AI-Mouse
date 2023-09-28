@@ -41,7 +41,7 @@ while True:
                     t_x = screen_width/frame_width*x
                     t_y = screen_height/frame_height*y
                     if abs(ib_y - t_y) < 10:
-                      pyautogui.click(button='left', clicks=1, interval=3)
+                      pyautogui.click(button='left', clicks=2, interval=3)
 
                 if id == 8:
                     cv2.circle(img=frame, center=(x,y), radius=10, color=(0, 255, 255))
